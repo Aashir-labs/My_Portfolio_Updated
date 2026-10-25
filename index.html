@@ -1,163 +1,712 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aashir Ahmed — Brand Manager · Social Media Strategist · Digital Growth</title>
-<meta name="description" content="Aashir Ahmed — Brand Manager, Social Media Strategist and Digital Growth specialist based in Karachi, Pakistan.">
-<link rel="icon" href="assets/images/profile/aashir-ahmed.png">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Metadata -->
+  <title>Aashir Ahmed — Brand Manager, Social Media Strategist &amp; Digital Growth</title>
+  <meta name="description" content="Portfolio of Aashir Ahmed — Brand Manager at Technest. Specializing in brand architecture, full-funnel Meta Ads, social media strategy, content ecosystems, and data-backed digital growth.">
+  <meta name="keywords" content="Brand Manager, Social Media Strategist, Social Media Manager, Meta Ads Specialist, Digital Growth, Brand Strategy, Content Strategy, Creative Direction, Performance Marketing, Aashir Ahmed">
+  <meta name="author" content="Aashir Ahmed">
+  <link rel="canonical" href="https://aashir-ahmed-portfolio.netlify.app/">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aashir-ahmed-portfolio.netlify.app/">
+  <meta property="og:title" content="Aashir Ahmed — Brand Manager, Social Media Strategist &amp; Digital Growth">
+  <meta property="og:description" content="Scaling brands through brand architecture, performance creative, full-funnel Meta Ads, and data-backed digital growth.">
+  <meta property="og:image" content="assets/images/profile/aashir-ahmed.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://aashir-ahmed-portfolio.netlify.app/">
+  <meta name="twitter:title" content="Aashir Ahmed — Brand Manager &amp; Digital Growth">
+  <meta name="twitter:description" content="Scaling brands through brand architecture, performance creative, and data-backed digital growth.">
+  <meta name="twitter:image" content="assets/images/profile/aashir-ahmed.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/profile/aashir-ahmed.png">
+
+  <!-- Editorial & Geometric Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Design System & Animations -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Structured JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aashir Ahmed",
+    "jobTitle": "Brand Manager",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Technest"
+    },
+    "description": "Brand Manager, Social Media Strategist, and Digital Growth specialist operating at the intersection of brand governance and performance marketing.",
+    "url": "https://aashir-ahmed-portfolio.netlify.app/",
+    "sameAs": [
+      "https://www.linkedin.com/in/aashir-ahmed-khan",
+      "https://contra.com/tijarat_team_pr39bgk7"
+    ],
+    "knowsAbout": [
+      "Brand Management",
+      "Social Media Strategy",
+      "Meta Ads",
+      "Content Strategy",
+      "Creative Direction",
+      "Digital Growth",
+      "AI Creative Production"
+    ]
+  }
+  </script>
 </head>
 <body>
 
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="ring"></div>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true"></div>
 
-<nav id="nav">
-  <a href="#home" class="nav-logo">
-    <img data-profile-photo src="assets/images/profile/aashir-ahmed.png" alt="Aashir Ahmed">
-    <span data-profile-name>Aashir Ahmed</span>
-  </a>
-  <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <div class="nav-right">
-    <a href="#contact" class="nav-cta">Let's Work Together</a>
-    <button class="nav-burger" id="nav-burger" aria-label="Open menu">
-      <span></span><span></span><span></span>
+  <!-- Ambient Canvas Subtle Top Glow -->
+  <div class="ambient-canvas-gradient" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand" aria-label="Aashir Ahmed Home">
+        <span class="brand-monogram">AA</span>
+        <div class="brand-text">
+          <span class="brand-name" id="navBrandName">Aashir Ahmed</span>
+          <span class="brand-status" id="navBrandStatus"><span class="status-indicator" aria-hidden="true"></span>Brand Manager · Technest</span>
+        </div>
+      </a>
+
+      <!-- Desktop Quick Links Bar -->
+      <nav class="nav-desktop-shortcuts" aria-label="Primary Navigation">
+        <ul class="nav-shortcuts-list">
+          <li><a href="#work" class="nav-shortcut-link">Work</a></li>
+          <li><a href="#meta-ads" class="nav-shortcut-link">Meta Ads</a></li>
+          <li><a href="#services" class="nav-shortcut-link">Services</a></li>
+          <li><a href="#experience" class="nav-shortcut-link">Experience</a></li>
+          <li><a href="#about" class="nav-shortcut-link">About</a></li>
+          <li><a href="#contact" class="nav-shortcut-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions Cluster -->
+      <div class="nav-actions">
+        <button type="button" class="btn btn-secondary js-open-resume nav-cv-btn" aria-label="View Resume">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          <span>Resume</span>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta-desktop">Let's Talk</a>
+
+        <button class="nav-drawer-toggle" id="menuToggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span class="drawer-toggle-bars" aria-hidden="true">
+            <span class="toggle-bar"></span>
+            <span class="toggle-bar"></span>
+          </span>
+          <span class="drawer-toggle-text">Menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Full Slide-Out Navigation Drawer (Desktop & Mobile) -->
+  <div class="nav-drawer-overlay" id="navDrawerOverlay" aria-hidden="true">
+    <div class="nav-drawer-backdrop" id="navDrawerBackdrop"></div>
+    <aside class="nav-drawer" id="navDrawer" role="dialog" aria-modal="true" aria-label="Main Navigation Drawer">
+      <div class="drawer-top-bar">
+        <div class="drawer-brand-summary">
+          <span class="drawer-brand-monogram">AA</span>
+          <div class="drawer-brand-titles">
+            <span class="drawer-brand-name">Aashir Ahmed</span>
+            <span class="drawer-brand-sub">Brand &amp; Performance Marketer</span>
+          </div>
+        </div>
+        <button type="button" class="drawer-close-icon" id="navDrawerClose" aria-label="Close menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="drawer-body">
+        <nav class="drawer-navigation-menu" aria-label="Drawer Navigation Links">
+          <span class="drawer-section-label">Navigation</span>
+          <ul class="drawer-nav-list" id="drawerNavList">
+            <li><a href="#home" class="drawer-nav-link"><span class="nav-idx">01</span><span>Home</span></a></li>
+            <li><a href="#about" class="drawer-nav-link"><span class="nav-idx">02</span><span>About Me</span></a></li>
+            <li><a href="#experience" class="drawer-nav-link"><span class="nav-idx">03</span><span>Career Track Record</span></a></li>
+            <li><a href="#work" class="drawer-nav-link"><span class="nav-idx">04</span><span>Selected Work &amp; Case Studies</span></a></li>
+            <li><a href="#meta-ads" class="drawer-nav-link"><span class="nav-idx">05</span><span>Meta Ads &amp; Paid Acquisition</span></a></li>
+            <li><a href="#growth-calculator" class="drawer-nav-link"><span class="nav-idx">06</span><span>Campaign ROI Estimator</span></a></li>
+            <li><a href="#social-gallery" class="drawer-nav-link"><span class="nav-idx">07</span><span>Creative Distribution Gallery</span></a></li>
+            <li><a href="#services" class="drawer-nav-link"><span class="nav-idx">08</span><span>Strategic Services</span></a></li>
+            <li><a href="#testimonials" class="drawer-nav-link"><span class="nav-idx">09</span><span>Client Endorsements</span></a></li>
+            <li><a href="#contact" class="drawer-nav-link"><span class="nav-idx">10</span><span>Get In Touch</span></a></li>
+          </ul>
+        </nav>
+
+        <div class="drawer-meta-section">
+          <!-- Preferences: Theme & Live Clock -->
+          <div class="drawer-preferences-row">
+            <div class="drawer-pref-item">
+              <span class="pref-label">Accent Theme</span>
+              <div id="themeSwitcher" class="nav-theme-switcher" aria-label="Theme color options"></div>
+            </div>
+            <div class="drawer-pref-item">
+              <span class="pref-label">Local Time (Karachi)</span>
+              <div class="nav-live-clock" title="Karachi Local Time">
+                <span class="clock-live-dot" aria-hidden="true"></span>
+                <span class="js-live-karachi-time">PKT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct Contacts -->
+          <div class="drawer-contact-block">
+            <span class="drawer-section-label">Direct Contacts</span>
+            <a href="mailto:aashir.khan440@gmail.com" class="drawer-contact-line">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>aashir.khan440@gmail.com</span>
+            </a>
+            <a href="https://wa.me/923102581680" target="_blank" rel="noopener noreferrer" class="drawer-contact-line">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.82 2.791.82 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.766-5.768-5.766zm9.969 5.766c0 5.503-4.497 10-10 10-1.748 0-3.385-.45-4.819-1.237l-5.181 1.356 1.381-5.048c-.86-1.488-1.381-3.218-1.381-5.071 0-5.503 4.497-10 10-10 5.503 0 10 4.497 10 10z"/></svg>
+              <span>+92 310 2581680</span>
+            </a>
+          </div>
+
+          <!-- Drawer Action CTAs -->
+          <div class="drawer-actions-row">
+            <button type="button" class="btn btn-secondary js-open-resume" style="width:100%;">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              <span>View Curriculum Vitae</span>
+            </button>
+            <a href="#contact" class="btn btn-primary" style="width:100%;">Let's Work Together</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-eyebrow-container reveal-on-scroll">
+          <span class="hero-eyebrow-badge">Brand Manager · Technest</span>
+          <span class="hero-eyebrow-text" id="heroEyebrow">Performance Marketing &amp; Social Growth Specialist</span>
+        </div>
+
+        <div class="hero-main-layout">
+          <div class="hero-text-column">
+            <h1 class="hero-headline reveal-on-scroll delay-1" id="heroHeadline">
+              Guiding brand identity &amp; <span class="serif-accent">high-performing growth campaigns.</span>
+            </h1>
+
+            <p class="hero-lead-text reveal-on-scroll delay-2" id="heroLead">
+              Leading brand identity, multi-platform social strategy, and paid Meta advertising at Technest. I help businesses build authoritative market presence, engage loyal communities, and drive measurable revenue through data-backed marketing.
+            </p>
+
+            <div class="hero-actions-cluster reveal-on-scroll delay-3">
+              <a href="#work" class="btn btn-primary">
+                <span>View Selected Work</span>
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3.33334 8H12.6667M12.6667 8L8.66668 4M12.6667 8L8.66668 12" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <button type="button" class="btn btn-ghost js-open-resume">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                <span>Curriculum Vitae</span>
+              </button>
+              <a href="#contact" class="btn btn-ghost">Let's Work Together</a>
+            </div>
+          </div>
+
+          <!-- Editorial Profile Image Area -->
+          <div class="hero-portrait-column reveal-on-scroll delay-2">
+            <div class="portrait-editorial-stage">
+              <div class="portrait-ambient-glow" aria-hidden="true"></div>
+              <div class="portrait-image-wrapper">
+                <img src="assets/images/profile/profile-pic.png" alt="Aashir Ahmed — Brand Manager" id="heroProfileImg" class="hero-profile-img" />
+              </div>
+              <div class="portrait-floating-badge">
+                <span class="floating-badge-role">Current Role</span>
+                <span class="floating-badge-company">Brand Manager @ Technest</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Curated Status Strip -->
+        <div class="hero-curated-strip reveal-on-scroll delay-3" id="heroCuratedStrip">
+          <!-- Rendered dynamically via app.js -->
+        </div>
+
+        <!-- Animated Hero Statistics Strip -->
+        <div class="hero-stats-strip reveal-on-scroll delay-4" id="heroStatsStrip">
+          <!-- Rendered dynamically via app.js with animated numeric counters -->
+        </div>
+
+        <!-- Elegant Scroll Indicator -->
+        <div class="hero-scroll-indicator" aria-hidden="true">
+          <span>Explore Career Journey ↓</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credibility Statement Strip -->
+    <section class="credibility-strip" aria-label="Core Philosophies">
+      <div class="container">
+        <div class="credibility-inner reveal-on-scroll">
+          <span class="credibility-lead">Core Philosophy:</span>
+          <p class="credibility-statement">
+            "High-performing marketing unites authentic visual identity, audience psychology, and targeted advertising into one cohesive growth engine."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Animated Platform Logos Showcase Marquee -->
+    <section class="platforms-marquee-section" id="platforms" aria-label="Enterprise Platforms and Growth Stack">
+      <div class="container">
+        <div class="platforms-intro reveal-on-scroll">
+          <span class="platforms-eyebrow">Platforms &amp; Tools</span>
+          <h2 class="platforms-heading">Platforms &amp; Marketing Tech Stack</h2>
+        </div>
+      </div>
+
+      <div class="marquee-container" aria-hidden="false">
+        <div class="marquee-track" id="platformMarqueeTrack">
+          <!-- Item 1: Meta -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6.9 8.2c-2.3 0-4.1 1.7-4.1 3.8s1.8 3.8 4.1 3.8c1.7 0 3-.9 4.1-2.4 1.1 1.5 2.4 2.4 4.1 2.4 2.3 0 4.1-1.7 4.1-3.8s-1.8-3.8-4.1-3.8c-1.7 0-3 .9-4.1 2.4-1.1-1.5-2.4-2.4-4.1-2.4z"/></svg>
+            <span class="platform-name">Meta</span>
+          </div>
+
+          <!-- Item 2: Instagram -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <span class="platform-name">Instagram</span>
+          </div>
+
+          <!-- Item 3: Facebook -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            <span class="platform-name">Facebook</span>
+          </div>
+
+          <!-- Item 4: TikTok -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.86.12V9.42a6.37 6.37 0 0 0-.86-.06A6.33 6.33 0 0 0 3 15.69a6.34 6.34 0 0 0 10.83 4.46V11.2a8.16 8.16 0 0 0 5.76 2.38v-3.45a4.85 4.85 0 0 1-3.77-3.44z"/></svg>
+            <span class="platform-name">TikTok</span>
+          </div>
+
+          <!-- Item 5: YouTube -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon fill="#07090e" points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            <span class="platform-name">YouTube</span>
+          </div>
+
+          <!-- Item 6: Meta Ads Manager -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polygon points="12 8 16 12 12 16 8 12 12 8"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/></svg>
+            <span class="platform-name">Meta Ads Manager</span>
+          </div>
+
+          <!-- Item 7: Hootsuite -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9a9 9 0 0 0-9-9z"/><circle cx="9" cy="11" r="2"/><circle cx="15" cy="11" r="2"/><path d="M12 14v3"/></svg>
+            <span class="platform-name">Hootsuite</span>
+          </div>
+
+          <!-- Item 8: Buffer -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            <span class="platform-name">Buffer</span>
+          </div>
+
+          <!-- Item 9: Google Analytics 4 -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 20V10M12 20V4M6 20v-6"/><circle cx="6" cy="14" r="1.5" fill="currentColor"/><circle cx="12" cy="4" r="1.5" fill="currentColor"/><circle cx="18" cy="10" r="1.5" fill="currentColor"/></svg>
+            <span class="platform-name">Google Analytics 4</span>
+          </div>
+
+          <!-- Item 10: LinkedIn -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span class="platform-name">LinkedIn</span>
+          </div>
+
+          <!-- Item 11: Canva -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M15 9.5a3.5 3.5 0 1 0 0 5"/></svg>
+            <span class="platform-name">Canva</span>
+          </div>
+
+          <!-- Item 12: CapCut -->
+          <div class="platform-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            <span class="platform-name">CapCut</span>
+          </div>
+
+          <!-- Duplicate Set for Seamless Continuous Infinite Scroll Loop -->
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6.9 8.2c-2.3 0-4.1 1.7-4.1 3.8s1.8 3.8 4.1 3.8c1.7 0 3-.9 4.1-2.4 1.1 1.5 2.4 2.4 4.1 2.4 2.3 0 4.1-1.7 4.1-3.8s-1.8-3.8-4.1-3.8c-1.7 0-3 .9-4.1 2.4-1.1-1.5-2.4-2.4-4.1-2.4z"/></svg>
+            <span class="platform-name">Meta</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <span class="platform-name">Instagram</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            <span class="platform-name">Facebook</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.86.12V9.42a6.37 6.37 0 0 0-.86-.06A6.33 6.33 0 0 0 3 15.69a6.34 6.34 0 0 0 10.83 4.46V11.2a8.16 8.16 0 0 0 5.76 2.38v-3.45a4.85 4.85 0 0 1-3.77-3.44z"/></svg>
+            <span class="platform-name">TikTok</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon fill="#07090e" points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            <span class="platform-name">YouTube</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><polygon points="12 8 16 12 12 16 8 12 12 8"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/></svg>
+            <span class="platform-name">Meta Ads Manager</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9a9 9 0 0 0-9-9z"/><circle cx="9" cy="11" r="2"/><circle cx="15" cy="11" r="2"/><path d="M12 14v3"/></svg>
+            <span class="platform-name">Hootsuite</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            <span class="platform-name">Buffer</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 20V10M12 20V4M6 20v-6"/><circle cx="6" cy="14" r="1.5" fill="currentColor"/><circle cx="12" cy="4" r="1.5" fill="currentColor"/><circle cx="18" cy="10" r="1.5" fill="currentColor"/></svg>
+            <span class="platform-name">Google Analytics 4</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span class="platform-name">LinkedIn</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M15 9.5a3.5 3.5 0 1 0 0 5"/></svg>
+            <span class="platform-name">Canva</span>
+          </div>
+          <div class="platform-pill" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            <span class="platform-name">CapCut</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-badge" id="aboutBadge">01 // About Me</span>
+          <h2 class="section-heading" id="aboutHeading">Where brand storytelling meets performance marketing.</h2>
+        </div>
+
+        <div class="about-editorial-grid">
+          <div class="about-column-main">
+            <p class="lead-text" id="aboutLead">
+              I don't separate brand identity from performance marketing. A strong visual identity establishes credibility, while disciplined paid acquisition and engaging social content turn attention into loyal customers and revenue.
+            </p>
+            
+            <div id="aboutNarrative">
+              <!-- Rendered dynamically via app.js -->
+            </div>
+
+            <!-- Philosophies Matrix -->
+            <div class="philosophies-matrix" id="aboutPhilosophies">
+              <!-- Rendered dynamically via app.js -->
+            </div>
+          </div>
+
+          <!-- Capabilities Aside Panel -->
+          <aside class="about-column-aside" aria-label="Core Competencies">
+            <div class="competencies-editorial-panel">
+              <h3 class="panel-header">Core Competencies</h3>
+              <div class="competencies-stack" id="competenciesList">
+                <!-- Rendered dynamically via app.js -->
+              </div>
+              <div class="panel-callout">
+                <span class="callout-indicator" aria-hidden="true"></span>
+                <p>Governing brand strategy, content calendars, Meta ad campaigns, and performance reporting at Technest.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-badge">02 // Experience</span>
+          <h2 class="section-heading">Career History &amp; Leadership</h2>
+          <p class="section-subheading">Track record across brand management, agency social operations, and full-funnel paid advertising.</p>
+        </div>
+
+        <div class="experience-deck" id="experienceTimeline">
+          <!-- Rendered dynamically via app.js from experience.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Portfolio Section -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="work-header-row">
+          <div class="section-intro">
+            <span class="section-badge">03 // Selected Work</span>
+            <h2 class="section-heading">Case Studies &amp; Campaigns</h2>
+            <p class="section-subheading">Curated brand frameworks, social media growth systems, and performance ad campaigns.</p>
+          </div>
+
+          <div class="work-controls-cluster">
+            <!-- Real-Time Project Search -->
+            <div class="portfolio-search-box">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="search" id="projectSearchInput" placeholder="Search case studies (e.g. fitness, leads, AI, Technest)..." aria-label="Search case studies by keyword" />
+              <button type="button" id="clearSearchBtn" class="search-clear-btn" style="display:none;" aria-label="Clear search">&times;</button>
+            </div>
+
+            <!-- Dynamic Category Filter Bar -->
+            <div class="portfolio-filter-cluster" role="tablist" aria-label="Filter portfolio categories">
+              <div class="filter-pill-box" id="portfolioFilterBar">
+                <!-- Rendered dynamically via app.js from projects.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Results Counter -->
+        <div class="portfolio-status-bar">
+          <span id="projectResultsCount" class="portfolio-results-count">Showing case studies</span>
+        </div>
+
+        <!-- Master Projects Grid -->
+        <div class="projects-editorial-grid" id="projectsGrid">
+          <!-- Rendered dynamically via app.js from projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated Meta Ads & Performance Hub Section -->
+    <section class="section meta-ads-hub-section" id="meta-ads">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-badge">04 // Meta Ads &amp; Paid Growth</span>
+          <h2 class="section-heading">Meta Ads &amp; Acquisition Hub</h2>
+          <p class="section-subheading">Full-funnel campaign structures, audience targeting strategies, and proven conversion results.</p>
+        </div>
+
+        <!-- Master KPI Metrics Deck -->
+        <div class="meta-ads-kpi-grid" id="metaAdsKpiGrid">
+          <!-- Rendered dynamically via app.js from metaAds.js with animated counters -->
+        </div>
+
+        <!-- In-Depth Campaign Case Studies -->
+        <div class="meta-ads-campaigns-deck" id="metaAdsCampaignsDeck">
+          <!-- Rendered dynamically via app.js from metaAds.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Meta Ads & Growth ROI Simulator -->
+    <section class="section roi-calculator-section" id="growth-calculator">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-badge">05 // Campaign Estimator</span>
+          <h2 class="section-heading">Campaign Budget &amp; Results Estimator</h2>
+          <p class="section-subheading">Interactive estimation of potential reach, qualified leads, and full-funnel budget allocation based on real campaign benchmarks.</p>
+        </div>
+        <div id="roiCalculatorWidget">
+          <!-- Rendered dynamically via roiCalculator.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media & Visual Asset Gallery -->
+    <section class="section social-gallery-section" id="social-gallery">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-badge">06 // Creative Showcase</span>
+          <h2 class="section-heading">Social Media &amp; Visual Gallery</h2>
+          <p class="section-subheading">Engaging carousel sets, short-form reels, and promotional designs crafted for social channels.</p>
+        </div>
+
+        <div class="curated-masonry-grid" id="socialGalleryGrid">
+          <!-- Rendered dynamically via app.js from socialGallery.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-badge">07 // What I Do</span>
+          <h2 class="section-heading">Strategic Services &amp; Capabilities</h2>
+          <p class="section-subheading">Core competencies focused on brand identity, social community growth, and measurable digital acquisition.</p>
+        </div>
+
+        <div class="services-editorial-matrix" id="servicesGrid">
+          <!-- Rendered dynamically via app.js from profile.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Client & Leadership Endorsements -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-badge">08 // Recommendations</span>
+          <h2 class="section-heading">Client &amp; Leadership Feedback</h2>
+          <p class="section-subheading">Feedback and reviews from agency directors, corporate leaders, and brand partners.</p>
+        </div>
+
+        <div class="testimonials-editorial-grid" id="testimonialsGrid">
+          <!-- Rendered dynamically via testimonials.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Call to Action & Lead Inquiry Hub -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-editorial-frame">
+          <div class="contact-layout-split">
+            <!-- Left Column: Narrative & Direct Channels -->
+            <div class="contact-text-lockup">
+              <span class="section-badge">09 // Get In Touch</span>
+              <h2 class="contact-headline" id="contactHeadline">
+                Have a brand, campaign, or growth challenge? <span class="serif-accent">Let's talk.</span>
+              </h2>
+              <p class="contact-subtext" id="contactSubtext">
+                Available for brand management consulting, social media leadership, and Meta ad campaign management. Reach out directly or send a message below.
+              </p>
+
+              <div class="contact-channels-array" id="contactChannels">
+                <!-- Rendered dynamically via app.js from profile.js -->
+              </div>
+
+              <!-- Quick Copy Utility Chips -->
+              <div class="contact-quick-utilities">
+                <div class="quick-copy-item">
+                  <span class="quick-copy-label">One-Click Copy:</span>
+                  <div class="quick-chips-wrap">
+                    <button type="button" class="btn-copy-chip" data-copy-text="aashir.khan440@gmail.com" data-copy-label="Email">
+                      <span>aashir.khan440@gmail.com</span>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                    </button>
+                    <button type="button" class="btn-copy-chip" data-copy-text="+923102581680" data-copy-label="WhatsApp Number">
+                      <span>+92 310 2581680</span>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Interactive Lead Inquiry Form -->
+            <div class="contact-form-column" id="contactFormContainer">
+              <!-- Rendered dynamically via contactForm.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Reusable Case Study Modal -->
+  <div class="case-study-drawer" id="caseStudyModal" aria-hidden="true" role="dialog" aria-modal="true" tabindex="-1">
+    <div class="drawer-backdrop" id="modalBackdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header-bar">
+        <span class="drawer-breadcrumbs" id="modalCategoryTag">CASE STUDY &amp; RESULTS</span>
+        <button class="drawer-close-btn" id="modalClose" aria-label="Close case study">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="drawer-content-scroll" id="modalContent">
+        <!-- Rendered dynamically via caseStudyModal.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Reusable Fullscreen Media Lightbox -->
+  <div class="media-lightbox" id="imageLightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-curtain" id="lightboxBackdrop"></div>
+    <div class="lightbox-stage">
+      <button class="lightbox-exit-btn" id="lightboxClose" aria-label="Close visual preview">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <img src="" alt="" id="lightboxImg" class="lightbox-master-image">
+      <p class="lightbox-meta-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- Executive Resume Modal -->
+  <div class="resume-dossier-modal" id="resumeModal" aria-hidden="true" role="dialog" aria-modal="true" tabindex="-1">
+    <div class="resume-modal-backdrop" id="resumeModalBackdrop"></div>
+    <div class="resume-modal-dialog">
+      <button class="resume-modal-close" id="resumeModalClose" aria-label="Close Resume">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="resume-modal-body" id="resumeModalContent">
+        <!-- Rendered dynamically via resumeModal.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick Actions Dock -->
+  <aside class="floating-quick-dock" id="floatingQuickDock" aria-label="Quick Navigation and Contact Actions">
+    <a href="https://wa.me/923102581680?text=Hi%20Aashir,%20I%20am%20interested%20in%20discussing%20a%20brand%20strategy%20or%20marketing%20project." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="quick-dock-btn quick-dock-whatsapp" 
+       title="Direct WhatsApp Chat" 
+       aria-label="Direct WhatsApp Chat">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.82 2.791.82 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.766-5.768-5.766zm9.969 5.766c0 5.503-4.497 10-10 10-1.748 0-3.385-.45-4.819-1.237l-5.181 1.356 1.381-5.048c-.86-1.488-1.381-3.218-1.381-5.071 0-5.503 4.497-10 10-10 5.503 0 10 4.497 10 10z"/></svg>
+      <span class="quick-tooltip">WhatsApp Chat</span>
+    </a>
+    <button type="button" 
+            class="quick-dock-btn quick-dock-top" 
+            id="btnBackToTop" 
+            title="Back to Top" 
+            aria-label="Back to Top">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 15l-6-6-6 6"/></svg>
+      <span class="quick-tooltip">Back to Top</span>
     </button>
-  </div>
-</nav>
+  </aside>
 
-<div class="mobile-menu" id="mobile-menu">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#experience">Experience</a>
-  <a href="#work">Work</a>
-  <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
-</div>
+  <!-- Global Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
 
-<!-- ============ HOME ============ -->
-<section class="hero" id="home">
-  <div class="hero-portrait"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <p class="hero-roles" data-profile-roles>Brand Manager · Social Media Strategist · Digital Growth</p>
-    <h1 class="hero-name" data-profile-name>Aashir Ahmed</h1>
-    <p class="hero-tagline" data-profile-tagline>I help brands grow with strategy, paid ads, and content that actually converts.</p>
-    <div class="hero-pills">
-      <span class="pill">4+ Years</span><span class="pill">Brand Management</span>
-      <span class="pill">Meta Ads</span><span class="pill">Content Strategy</span><span class="pill">Digital Growth</span>
-    </div>
-    <div class="hero-btns">
-      <a href="#work" class="btn-main">View My Work</a>
-      <a href="#contact" class="btn-ghost">Let's Work Together</a>
-    </div>
-  </div>
-  <div class="scroll-ind">↓</div>
-</section>
-
-<div class="home-stats">
-  <div><div class="home-stat-val">4+</div><div class="home-stat-lbl">Years Experience</div></div>
-  <div><div class="home-stat-val">2.1M+</div><div class="home-stat-lbl">Views Generated</div></div>
-  <div><div class="home-stat-val">1,757</div><div class="home-stat-lbl">Leads Generated</div></div>
-  <div><div class="home-stat-val">136+</div><div class="home-stat-lbl">Ad Campaigns</div></div>
-</div>
-
-<!-- ============ ABOUT ============ -->
-<section class="about-sec" id="about">
-  <div>
-    <p class="slabel reveal">Introduction</p>
-    <h2 class="stitle reveal">About Me</h2>
-    <p class="muted-text reveal">Hi, I'm Aashir Ahmed — a Brand Manager and Social Media Strategist who genuinely believes that great content should do more than look good — it should work.</p>
-    <p class="muted-text reveal">Over the past 4+ years, I've worked with agencies and brands to build strong digital presence through clear strategy, data-driven execution, and paid campaigns that deliver measurable ROI.</p>
-    <p class="muted-text reveal">I'm currently a Brand Manager at Technest, focused on brand strategy and digital growth.</p>
-
-    <div class="about-approach">
-      <div class="approach-item reveal">
-        <span class="approach-num">01</span>
-        <p><strong>Strategy First</strong>Every campaign starts with a clear objective, not a content calendar.</p>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div class="footer-brand-lockup">
+        <span class="footer-title" id="footerName">Aashir Ahmed</span>
+        <p class="footer-role" id="footerRole">Brand Manager · Social Media Strategist · Digital Growth</p>
       </div>
-      <div class="approach-item reveal">
-        <span class="approach-num">02</span>
-        <p><strong>Data-Driven Execution</strong>Decisions are backed by performance data, not guesswork.</p>
-      </div>
-      <div class="approach-item reveal">
-        <span class="approach-num">03</span>
-        <p><strong>Consistent Brand Presence</strong>Strong brands are built through consistency across every touchpoint.</p>
+      <div class="footer-notes">
+        <p class="footer-hosting-badge">Production Architecture · GitHub &amp; Netlify Ready</p>
+        <p class="footer-copy">&copy; 2026 Aashir Ahmed. All rights reserved.</p>
       </div>
     </div>
-  </div>
-  <div class="about-photo reveal">
-    <img data-profile-photo src="assets/images/profile/aashir-ahmed.png" alt="Aashir Ahmed">
-  </div>
-</section>
+  </footer>
 
-<!-- ============ EXPERIENCE ============ -->
-<section class="exp-sec" id="experience">
-  <div class="sec-header">
-    <p class="slabel reveal">Career</p>
-    <h2 class="stitle reveal">Professional Experience</h2>
-  </div>
-  <div class="exp-timeline" id="exp-timeline"><!-- rendered by js/main.js --></div>
-</section>
-
-<!-- ============ WORK ============ -->
-<section class="work-sec" id="work">
-  <div class="sec-header">
-    <p class="slabel reveal">Portfolio</p>
-    <h2 class="stitle reveal">Selected Work</h2>
-    <p class="muted-text reveal" style="max-width:600px;margin-top:12px">Real results from real campaigns. Here's what happens when strategy meets execution.</p>
-  </div>
-  <div class="work-filters" id="work-filters"><!-- rendered by js/main.js --></div>
-  <div class="work-grid" id="work-grid"><!-- rendered by js/main.js --></div>
-</section>
-
-<!-- ============ CASE STUDY MODAL ============ -->
-<div class="modal-overlay" id="modal-overlay">
-  <div class="modal-box">
-    <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
-    <div id="modal-body"><!-- rendered by js/main.js --></div>
-  </div>
-</div>
-
-<!-- ============ SERVICES ============ -->
-<section class="svc-sec" id="services">
-  <div class="sec-header">
-    <p class="slabel reveal">What I Offer</p>
-    <h2 class="stitle reveal">Services</h2>
-    <p class="muted-text reveal" style="max-width:600px;margin-top:12px">Everything I build is intentional, backed by data, and designed to deliver results that last.</p>
-  </div>
-  <div class="svc-grid" id="svc-grid"><!-- rendered by js/main.js --></div>
-</section>
-
-<!-- ============ CONTACT ============ -->
-<section class="contact-sec" id="contact">
-  <div class="contact-inner">
-    <p class="slabel reveal">Let's Work Together</p>
-    <h2 class="contact-title reveal">Ready to <em>Grow</em><br>Your Brand?</h2>
-    <p class="contact-sub reveal">Whether you need brand strategy, social media management, or Meta Ads — I'm here to deliver real, measurable results.</p>
-    <div class="contact-links">
-      <a data-profile-email="text" href="mailto:aashir.khan440@gmail.com" class="contact-link">✉️ aashir.khan440@gmail.com</a>
-      <a data-profile-whatsapp href="https://wa.me/923102581680" class="contact-link" target="_blank" rel="noopener">💬 WhatsApp</a>
-      <a data-profile-contra href="https://contra.com/tijarat_team_pr39bgk7" class="contact-link" target="_blank" rel="noopener">🔗 Contra Profile</a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <span>© 2026 Aashir Ahmed Khan · Karachi, Pakistan</span>
-  <span>Brand Manager · Social Media Strategist · Digital Growth</span>
-</footer>
-
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
+  <!-- Application Orchestrator -->
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
